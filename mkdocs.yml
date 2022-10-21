@@ -1,0 +1,30 @@
+site_name: Code solutions
+site_url: https://mashafrancis.github.io/dsa/
+site_author: Francis Masha
+site_description: Data structures and algorithms for learning in C++, Javascript and Typescript
+theme:
+  name: material
+  palette:
+  - scheme: default
+    primary: blue
+    accent: amber
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light mode
+  - scheme: slate
+    primary: blue
+    accent: amber
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark mode
+  features:
+  - search.suggest
+  - search.highlight
+  icon:
+    logo: material/xml
+  favicon: img/favicon.png
+  language: en
+  nav:
+    - 1.None: algorithm/1.two-sum.md
+    - 2.None: algorithm/2.add-two-numbers.md
+    - 3.Longest Substring Without Repeating Characters: algorithm/3.longest-substring-without-repeating-characters.md
