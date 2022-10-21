@@ -359,7 +359,6 @@ for (ListNode* curr = head; curr; curr = curr->next) { ... }
     ```
 
 4. When there are two maps/stacks, use meaningful names.
-
     ```cpp
     // C++
     unordered_map<char, int> countA;
