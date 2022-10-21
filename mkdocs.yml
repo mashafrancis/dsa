@@ -1,0 +1,82 @@
+# Project information
+site_name: Code solutions
+site_url: https://mashafrancis.github.io/dsa/
+site_author: Francis Masha 
+site_description: Data structures and algorithms for learning in Rust, C++, Javascript and Typescript
+
+# Repository
+repo_name: mashafrancis/dsa
+repo_url: https://github.com/mashafrancis/dsa
+edit_uri: ''
+
+# Copyright
+copyright: Copyright &copy; <a href="http://github.com/mashafrancis">Francis Masha</a> 2022
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: default
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Circular Std
+    code: SF Mono
+  features:
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+  icon:
+    logo: material/xml
+  favicon: assets/favicon.png
+  language: en
+
+extra_css:
+  - css/katex.css
+  - css/custom.css
+  - css/extra.css
+  - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css
+
+extra_javascript:
+  - js/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: false
+  - pymdownx.highlight:
+      linenums: true
+      linenums_style: pymdownx.table
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Plugins
+plugins:
+  - search:
+      lang:
+        - en
+
+nav:
+  - Home: index.md
+  - Preface: preface.md
+  - Style Guide: styleguide.md
+
