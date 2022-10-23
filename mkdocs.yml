@@ -55,17 +55,23 @@ extra_javascript:
 # Extensions
 markdown_extensions:
   - toc:
-      permalink: false
+      permalink: true
   - pymdownx.highlight:
       linenums: true
       linenums_style: pymdownx.table
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.mark
+  - admonition
+  - codehilite
+  - meta
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
 
 # Plugins
 plugins:
