@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../dsa-mkdocs"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../dsa-scripts"
+		}
+	],
+	"settings": {
+	}
+}
