@@ -118,8 +118,8 @@ class LeetCodeAPI:
 			approach_index: int) -> None:
 		for extension, lang, tab in [
 			("cpp", "cpp", "C++"),
-			("java", "java", "Java"),
 			("py", "python", "Python"),
+			("rs", "rust", "Rust"),
 		]:
 			suffix: str = "" if approach_index == 1 else f"-{approach_index}"
 			code_file_dir = f"{problem_path}/{filled_num}{suffix}.{extension}"
