@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git clone https://github.com/mashafrancis/dsa.git
-cd dsa || exit
+git clone https://github.com/mashafrancis/dsa.git dsa_mock
+cd dsa_mock || exit
 git clone -b mkdocs --single-branch https://github.com/mashafrancis/dsa.git mkdocs
 git clone -b scripts --single-branch https://github.com/mashafrancis/dsa.git scripts
 
